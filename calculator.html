@@ -1,0 +1,70 @@
+<!DOCDTYPE HTML>
+<html>
+<head>
+<title>CALCULATOR</title>
+<style>
+body{
+    background-color: skyblue;
+
+}
+*{
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+.wrap{
+    width:405px;
+    margin:auto;
+    height:auto;
+    background:black;
+    padding: 15px;
+}
+input[type=text]{
+    width:100%;
+    padding:10px;
+    font-size:22px;
+    font-weight: bold;
+    margin-top:20px ;
+    border-radius:5px;
+}
+input[type=button]{
+    width:89px;
+    padding:10px;
+    font-size: 22px;
+    font-weight:bold;
+    border-radius:5px;   
+}
+#del{
+    width:100%;
+}
+</style>
+<body>
+    <div class="wrap">
+        <form name="cal">
+            <input type="text" name="display">
+            <br></br>
+            <input type="button" value="9" >
+            <input type="button" value="8" >
+            <input type="button" value="7" >
+            <input type="button" value="+" >
+            <br></br>
+            <input type="button" value="6" >
+            <input type="button" value="5" >
+            <input type="button" value="4" >
+            <input type="button" value="-" >
+            <br></br>
+            <input type="button" value="3" >
+            <input type="button" value="2" >
+            <input type="button" value="1" >
+            <input type="button" value="*" >
+            <br></br>
+            <input type="button" value="0" >
+            <input type="button" value="/" >
+            <input type="button" value="%" >
+            <input type="button" value="=" >
+            <br></br>
+            <input type="button" value="DELETE">
+        </form>
+    </div>
+</body>
+</html>
